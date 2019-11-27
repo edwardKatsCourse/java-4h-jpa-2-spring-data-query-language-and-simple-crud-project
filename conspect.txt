@@ -1,0 +1,42 @@
+1. jpa annotations
+2. Entity Manager + JPQL (Java Persistence Query Language)
+3. spring data query language
+
+SQL
+select * from TABLE_NAME where FIRST_NAME = 
+
+JPQL
+select * from EntityName e where e.firstName = 
+
+CODE -> JPA -> SQL
+CODE -> SQL = JDBC
+
+JPA Annotations
+1. Required in order to operate
+2. Create tables... | 
+
+ddl-auto=update
+ddl-auto=none
+
+
+
+
+Forum
+-----------
+Article
+Comments -> articleId (@ManyToOne)
+
+
+
+Create Read Update Delete (CRUD)
+
+
+
+controller -> service -> repository
+controller -> repository
+
+controller + service		entity + repository
+							существ.	глагол
+							кто/что	  что с ним делать
+
+
